@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { 
   Briefcase, BarChart3, Send, GraduationCap, Settings, 
-  Crown, Sparkles, X
+  Crown, Sparkles, X, MailCheck
 } from 'lucide-react';
 import logoImage from '../../assets/losango - prisma.png';
 import './Sidebar.css';
