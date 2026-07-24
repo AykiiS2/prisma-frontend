@@ -375,6 +375,7 @@ export function Analytics() {
           <div className="analytics-header">
             <div>
               <h1 className="analytics-title">Analytics</h1>
+              <span className="feedback-title-accent" />
               <p className="analytics-subtitle">Overview of the design market and opportunities.</p>
             </div>
             <div className="analytics-header-actions">
