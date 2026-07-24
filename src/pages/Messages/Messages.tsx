@@ -125,6 +125,7 @@ export function Messages() {
           <div className="messages-header">
             <div>
               <h1 className="messages-title">Messages</h1>
+              <span className="feedback-title-accent" />
               <p className="messages-subtitle">
                 Generate personalized messages and send them directly via Email or WhatsApp.
               </p>
