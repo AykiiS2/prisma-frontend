@@ -26,6 +26,8 @@ export function Header({ onMenuClick, isMenuOpen }: HeaderProps) {
       return 'Tutorial';
     } else if (path === '/plans') {
       return 'Plans';
+    } else if (path === '/feedback') {
+      return 'Feedback';
     }
     
     return 'Dashboard';
