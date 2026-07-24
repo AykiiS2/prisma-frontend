@@ -167,7 +167,7 @@
                 <div className="feedback-stats-mini">
                   <div className="feedback-stat-mini">
                     <Heart size={14} style={{ color: '#ff1f7a' }} />
-                    <span>We value your opinion</span>
+                      <span>We value your opinion</span>
                   </div>
                 </div>
               </div>
@@ -257,44 +257,62 @@
 
               <div className="feedback-sidebar">
                 <Card className="feedback-tips-card" glow>
-                  <h3 className="feedback-tips-title">
-                    <Lightbulb size={18} style={{ color: '#f59e0b' }} />
-                    Feedback Tips
-                  </h3>
-                  <ul className="feedback-tips-list">
-                    <li>
-                      <span className="feedback-tip-icon">✓</span>
-                      <span>Be specific about what you liked or didn't like</span>
-                    </li>
-                    <li>
-                      <span className="feedback-tip-icon">✓</span>
-                      <span>Include steps to reproduce any bugs you found</span>
-                    </li>
-                    <li>
-                      <span className="feedback-tip-icon">✓</span>
-                      <span>Suggest improvements with clear examples</span>
-                    </li>
-                    <li>
-                      <span className="feedback-tip-icon">✓</span>
-                      <span>Share what features would make your experience better</span>
-                    </li>
-                  </ul>
-                </Card>
+  <h3 className="feedback-tips-title">
+    <Lightbulb size={18} style={{ color: '#f59e0b' }} />
+    Feedback Tips
+  </h3>
+  <ul className="feedback-tips-list">
+    <li>
+      <span className="feedback-tip-icon">✓</span>
+      <span>Be specific about what you liked or didn't like</span>
+    </li>
+    <li>
+      <span className="feedback-tip-icon">✓</span>
+      <span>Include steps to reproduce any bugs you found</span>
+    </li>
+    <li>
+      <span className="feedback-tip-icon">✓</span>
+      <span>Suggest improvements with clear examples</span>
+    </li>
+    <li>
+      <span className="feedback-tip-icon">✓</span>
+      <span>Share what features would make your experience better</span>
+    </li>
+    <li>
+      <span className="feedback-tip-icon">✓</span>
+      <span>Explain the impact of the issue on your workflow</span>
+    </li>
+    <li>
+      <span className="feedback-tip-icon">✓</span>
+      <span>Compare your experience with other similar tools</span>
+    </li>
+    <li>
+      <span className="feedback-tip-icon">✓</span>
+      <span>Highlight what you love most about the platform</span>
+    </li>
+    <li>
+      <span className="feedback-tip-icon">✓</span>
+      <span>Share screenshots to illustrate your feedback</span>
+    </li>
+    <li>
+      <span className="feedback-tip-icon">✓</span>
+      <span>Describe your use case to help us understand your needs</span>
+    </li>
+    <li>
+      <span className="feedback-tip-icon">✓</span>
+      <span>Let us know if you found any workarounds</span>
+    </li>
+    <li>
+      <span className="feedback-tip-icon">✓</span>
+      <span>Provide feedback on the overall user experience</span>
+    </li>
+    <li>
+      <span className="feedback-tip-icon">✓</span>
+      <span>Tell us what you would like to see in future updates</span>
+    </li>
+  </ul>
+</Card>
 
-                <Card className="feedback-features-card" glow>
-                  <h3 className="feedback-features-title">
-                    <Crown size={18} style={{ color: '#ff1f7a' }} />
-                    Pro Features
-                  </h3>
-                  <p className="feedback-features-text">
-                    Upgrade to Pro to get priority support and feature requests.
-                  </p>
-                  <Link to="/plans">
-                    <Button variant="primary" size="sm" fullWidth icon={<Crown size={14} />}>
-                      View Plans
-                    </Button>
-                  </Link>
-                </Card>
               </div>
             </div>
           </div>
