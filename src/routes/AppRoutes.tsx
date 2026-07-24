@@ -9,6 +9,7 @@ import { Dashboard } from '../pages/Dashboard/Dashboard';
 import { Analytics } from '../pages/Analytics/Analytics';
 import { Messages } from '../pages/Messages/Messages';
 import { Tutorial } from '../pages/Tutorial/Tutorial';
+import { Feedback } from '@/pages/Feedback/Feedback';
 import { Settings } from '../pages/Settings/Settings';
 import { Tools } from '../pages/Tools/Tools';
 import { Plans } from '../pages/Plans/Plans';
@@ -81,6 +82,7 @@ export function AppRoutes() {
             </PrivateRoute>
           }
         />
+        <Route path="/feedback" element={<PrivateRoute><Feedback /></PrivateRoute>} />
         <Route
           path="/settings"
           element={
