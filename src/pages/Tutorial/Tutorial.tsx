@@ -22,6 +22,7 @@ export function Tutorial() {
         <div className="dashboard-content tutorial-content">
           <div className="tutorial-header">
             <h1 className="tutorial-title">Tutorial</h1>
+            <span className="feedback-title-accent" />
             <p className="tutorial-subtitle">
               Learn how to use all of Prisma's features to find the best opportunities.
             </p>
