@@ -735,8 +735,8 @@ export function Dashboard() {
                 <div className="dashboard-welcome-greeting">
                   <Sparkles size={16} />
                   <span>{greeting}, {user?.name?.split(' ')[0] || 'User'}</span>
-                  <span className="feedback-title-accent" />
                 </div>
+                <span className="feedback-title-accent" />
                 <p className="dashboard-welcome-text">
                   Connect with the best opportunities for designers.
                 </p>
